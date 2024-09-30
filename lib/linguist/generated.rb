@@ -20,7 +20,7 @@ module Linguist
       @name = name
       @extname = File.extname(name)
       @_data = data
-    end
+    end.
 
     attr_reader :name, :extname
 
